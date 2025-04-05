@@ -1,9 +1,9 @@
 # Add your constants here
 
-BASE_URL = "https://restful-booker.herokupp.com"
-
-def base_url():
-    return "https:restful-booker.herplkuapp.com"
+# BASE_URL = "https://restful-booker.herokupp.com"
+#
+# def base_url():
+#     return "https:restful-booker.herplkuapp.com"
 
 
 class APIconstants(object):
