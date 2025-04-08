@@ -8,8 +8,7 @@ from src.helpers.Common_verfication import verify_response_key_should_not_be_non
 
 import pytest
 class Testcreatebooking(object):
-
-
+    @pytest.mark.postive
     def test_create_booking_tc1(self):
         response= post_request(url=APIconstants.url_create_booking(),auth=None,headers=common_headers_json(),payloads=payload_create_booking(),in_json=False)
         print(response)
@@ -17,5 +16,27 @@ class Testcreatebooking(object):
         verify_http_status_data(response,200)
         bookingid = response.json()["bookingid"]
         print(bookingid)
+
+    @pytest.mark.negative
+    def test_create_booking_tc2(self):
+        response = post_request(
+            url=APIconstants.url_create_booking(),
+            auth=None,
+            headers=common_headers_json(),
+            payloads=None,
+            in_json=False
+        )
+
+        print("Status Code:", response.status_code)
+        print("Response Text:", response.text)
+
+        # Negative test: expecting 400 Bad Request
+        verify_http_status_data(response, 400)
+
+        try:
+            error_json = response.json()
+            print("Error JSON:", error_json)
+        except Exception as e:
+            print("Response is not in JSON format. Error:", str(e))
 
 

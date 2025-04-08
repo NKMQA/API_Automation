@@ -3,6 +3,8 @@
 #Verify the string --
 
 def verify_http_status_data(response_data, expect_data):
+    print(response_data.status_code)
+    print(expect_data)
     assert response_data.status_code == expect_data, "Expected HTTP Status Code " + str(expect_data) + ", but got " + str(response_data.status_code)
 
 

@@ -4,6 +4,7 @@ import json
 
 #HTTP methods - Generic functions
 
+### Get
 def get_request(url, auth, in_json):
     response = requests.get (url = url,auth = auth)
     if in_json is True:
