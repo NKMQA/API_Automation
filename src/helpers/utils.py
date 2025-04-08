@@ -8,6 +8,12 @@ def common_headers_json():
     return headers
 
 
+def common_headers_for_put_delete_patch():
+    headers={
+        "content-type": "application/json",
+        "Authorization": "Basic YWRtaW46cGFzc3dvcmQxMjM"
+    }
+    return headers
 
 # This for content type xml
 def common_headers_xml():
@@ -15,6 +21,7 @@ def common_headers_xml():
         "content-type": "application/xml"
     }
     return headers
+
 
 
 

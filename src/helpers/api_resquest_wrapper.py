@@ -27,21 +27,19 @@ def patch_request(url, auth,headers, payloads , in_json):
         return patch_response.json()
     return patch_request
 
-###put
-def put_request(url, auth,headers, payloads , in_json):
-    put_response = requests.put(url = url, auth = auth , headers = headers , data = json.dumps(payloads))
-    if in_json is True:
+# PUT
+def put_request(url, auth, headers, payloads, in_json):
+    put_response = requests.put(url=url, auth=auth, headers=headers, data=json.dumps(payloads))
+    if in_json:
         return put_response.json()
-    return put_request
+    return put_response
 
-
-###delete
-def delete_request(url, auth,headers, payloads , in_json):
-    delete_response = requests.put(url = url, auth = auth , headers = headers , data = json.dumps(payload))
-    if in_json is True:
+# DELETE
+def delete_request(url, auth, headers, payloads, in_json):
+    delete_response = requests.delete(url=url, auth=auth, headers=headers, data=json.dumps(payloads))
+    if in_json:
         return delete_response.json()
-    return delete_request
-
+    return delete_response
 
 
 ###XML data we can convert to Json if we have paylaod on XML we can convert before sending

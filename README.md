@@ -23,3 +23,8 @@ pip freeze > requirements.txt
 ### To install the freeze version 
 
 pip install -r requirements.txt
+
+### How to run test cases parallel 
+pip install pytest-xdist
+
+pytest -n auto test/intergration_test/test_create_booking

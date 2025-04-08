@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2200e24c-fbe9-4f84-b925-1740efaa888e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/integration_test/test_crud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Parallel/test_parallel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/datadriventesting/test_ddt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration_test/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/Common_verfication.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/Common_verfication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/api_resquest_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/api_resquest_wrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/payload_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/payload_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/integration_test/test_create_booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration_test/test_create_booking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/integration_test/test_crud_tc.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration_test/test_crud_tc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/integration_test/test_crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration_test/test_crud.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for conftest.Testcreatebooking.executor": "Run",
+    "Python tests.Python tests for conftest.Testcreatebooking.test_create_booking.executor": "Run",
     "Python tests.Python tests for test_create_booking.TestcreateBooking.executor": "Run",
     "Python tests.Python tests for test_create_booking.TestcreateBooking.test_create_booking_tc1.executor": "Run",
     "Python tests.Python tests for test_create_booking.Testcreatebooking.executor": "Run",
@@ -52,16 +55,20 @@
     "Python tests.Python tests for test_create_booking.test_create_booking_tc1.executor": "Run",
     "Python tests.Python tests for test_crud.Testcreatebooking.executor": "Run",
     "Python tests.Python tests for test_crud.Testcreatebooking.test_create_token.executor": "Run",
+    "Python tests.Python tests for test_crud.Testcreatebooking.test_delete_booking.executor": "Run",
+    "Python tests.Python tests for test_crud.Testcreatebooking.test_update_booking.executor": "Run",
     "Python tests.Python tests for test_crud_tc.test_crud.executor": "Run",
     "Python tests.Python tests in test_create_booking.py.executor": "Run",
+    "Python tests.Python tests in test_crud.py.executor": "Run",
     "Python tests.Python tests in test_crud_tc.py.executor": "Run",
+    "Python.conftest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_crud.Testcreatebooking.test_update_booking">
-    <configuration name="Python tests for test_create_booking.Testcreatebooking.test_create_booking_tc2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in test_crud.py">
+    <configuration name="Python tests for conftest.Testcreatebooking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="API_Automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,7 +79,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_booking.Testcreatebooking.test_create_booking_tc2&quot;" />
+      <option name="_new_target" value="&quot;conftest.Testcreatebooking&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -91,7 +98,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_crud.Testcreatebooking.test_create_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_crud.Testcreatebooking.test_delete_booking" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="API_Automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,7 +109,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_crud.Testcreatebooking.test_create_token&quot;" />
+      <option name="_new_target" value="&quot;test_crud.Testcreatebooking.test_delete_booking&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -121,7 +128,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_create_booking.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_crud.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="API_Automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,17 +139,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/integration_test/test_create_booking.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/integration_test/test_crud.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_crud.py" />
+        <item itemvalue="Python tests.Python tests for test_crud.Testcreatebooking.test_delete_booking" />
         <item itemvalue="Python tests.Python tests for test_crud.Testcreatebooking.test_update_booking" />
         <item itemvalue="Python tests.Python tests for test_crud.Testcreatebooking" />
-        <item itemvalue="Python tests.Python tests for test_crud.Testcreatebooking.test_create_token" />
-        <item itemvalue="Python tests.Python tests in test_create_booking.py" />
-        <item itemvalue="Python tests.Python tests for test_create_booking.Testcreatebooking.test_create_booking_tc2" />
+        <item itemvalue="Python tests.Python tests for conftest.Testcreatebooking" />
       </list>
     </recent_temporary>
   </component>
