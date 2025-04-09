@@ -28,3 +28,8 @@ pip install -r requirements.txt
 pip install pytest-xdist
 
 pytest -n auto test/intergration_test/test_create_booking
+
+
+ # (to work with excel files )
+
+pip install openyxl
